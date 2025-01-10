@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.name{
+    font-weight: bold;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+
+.btn{
+    border: none ;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #006A50;
+    cursor: pointer;   
+}
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 80px;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    flex: 3;
+    width: 1360px;
+    height: auto;
+   
+}
+.banner button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: #006A50;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 3em;
+}
+.cards{
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px none;
+}
