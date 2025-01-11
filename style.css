@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     box-sizing: border-box;
   }
@@ -65,7 +65,7 @@
   }
 
   .banner-button:hover{
-    background-color: #007b5e;
+    background-color: #7b1900;
   }
   
   .cards-section-text {
@@ -352,13 +352,40 @@
   }
   
   .donate .d-button {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    
+   display: flex;
+   justify-content: center;
+   gap: 10px;
   }
 
+  
   .d-button{
+    margin-top: 40px;
+  }
+  .donation-button{
+    display: inline-block;
+    padding: 15px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+
+
+  }
+
+  .donation-button:hover{
+    background-color: #C6E4D6;
+    color: #007b5e;
+  }
+  
+ 
+  
+  .fixed-color{
+    background-color: #C6E4D6;
+    color: #007b5e;
+  }
+
+  /* .d-button{
     padding: 10px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -369,15 +396,17 @@
     margin-top: 50px;
   }
   
-  .donate .d-button button {
+  .donate .d-button div {
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-     background: #005f47;
+    background: #005f47;
     color: #fff;
   }
+*/
+ 
   
   .input {
     padding: 10px;
