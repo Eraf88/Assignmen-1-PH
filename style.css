@@ -347,6 +347,18 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    
+  }
+
+  .d-button{
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+    margin-top: 50px;
   }
   
   .donate .d-button button {
@@ -355,7 +367,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background: #005f47;
+     background: #005f47;
     color: #fff;
   }
   
@@ -376,6 +388,7 @@
     border-radius: 5px;
     cursor: pointer;
     margin-left: 10px;
+    margin-top: 20px;
   }
   
   .newsletter {
@@ -384,25 +397,45 @@
     background-color: #fff;
   }
   
-  .newsletter form {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .newsletter input[type="email"] {
+.newsletter{
+    text-align: center;
+}
+
+.input{
+    width: 100%;
     padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .newsletter button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    background: #007bff;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.newsletter-input {
+   flex: 1;
+   padding: 10px 15px;
+   margin: 20px;
+   font-size: 16px;
+   border: 2px solid #ddd;
+   border: none;
+   border-radius: 8px 0 0 8px;
+   outline: none;
+}
+
+.newsletter-btn{
+   background-color: #007b5e;
+   color: white;
+   padding: 10px 20px;
+   font-size: 16px;
+   border: none;
+   border-radius: 0 8px 8px 0;
+   cursor: pointer;
+   
+}
+
+.newsletter-head{
+    font-weight: bold;
+}
+
+.newsletter-p{
+    margin: 10px;
+}
